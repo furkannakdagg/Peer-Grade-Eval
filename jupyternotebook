@@ -1,0 +1,27 @@
+My Jupyter Notebook on
+modeling
+
+Data Science leads us to the future. And I want my place in the future. That is why I am interested in DS.
+
+The next cell will calculate how much money I will pay Coursera as tution fee for course "data Science":
+
+import math                #importing math for math.ceil() function (rounding up).
+MonthlyFee = 38            # monthly fee in USD
+CourseLength = 11          # course length according to Coursera in month
+MyPace = 3                 # the coefficient which show how much times faster you can pass the course
+TotalFee = math.ceil(CourseLength/MyPace)*MonthlyFee # counting the fee
+print('For Data Science course you will pay in total',TotalFee,'$.') # output the values.
+
+Because:
+
+There is the chance info is usefull
+It is not a lot for 11 months
+
+To see how much will you pay, run this code:
+
+import math                #importing math for math.ceil() function (rounding up).
+MonthlyFee = 38            # monthly fee in USD
+CourseLength = 11          # course length according to Coursera in month
+MyPace = 3                 # the coefficient which show how much times faster you can pass the course
+TotalFee = math.ceil(CourseLength/MyPace)*MonthlyFee # counting the fee
+print('For Data Science course you will pay in total',TotalFee,'$.') # output the values.
